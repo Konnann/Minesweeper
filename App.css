@@ -1,0 +1,130 @@
+#cover {
+    left: 20px;
+    position: absolute;
+}
+
+
+#content {
+    left: 22px;
+    position: absolute;
+}
+
+
+.container {
+    height: 70px;
+    width: 70px;
+    margin: 2px;
+}
+
+
+.cover-block {
+    height: inherit;
+    width: inherit;
+    margin: inherit;
+    background-color: darkmagenta;
+    border-radius: 3px;
+    text-align: center;
+    color: red;
+    -webkit-text-stroke: 1px white;
+    font-weight: 200;
+    font-family: "Comic Sans MS";
+    font-size: 45px;
+}
+
+
+.marked {
+    background-color: darkblue;
+}
+
+
+.block-content {
+    height: 70px;
+    width: 70px;
+    margin: 2px;
+    border-radius: 3px;
+    background-color: lightgrey;
+    color: dimgray;
+
+
+}
+
+
+.text-content {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Comic Sans MS";
+    color: dimgray;
+}
+
+
+.bomb-background {
+    background-color: red;
+}
+
+
+.bomb-text {
+    color: black;
+}
+
+
+#result {
+    -webkit-text-stroke: 4px white;
+    color: midnightblue;
+    position: absolute;
+    width: 772px;
+    font-weight: 300;
+    font-size: 180px;
+    font-family: "Comic Sans MS";
+    top: 150px;
+    left: 27px;
+}
+
+
+#resultBackground {
+    margin-left: 40px;
+}
+
+
+#restart {
+    color: midnightblue;
+    font-size: 30px;
+    -webkit-text-stroke: 0px black;
+    font-weight: 300;
+    font-family: "Comic Sans MS";
+    background-color: white;
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    left: 290px;
+}
+
+
+#score {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    left: 820px;
+    top: 10px;
+    background-color: lightgrey;
+
+}
+
+#scoreContent {
+    font-family: "Comic Sans MS";
+
+}
+
+#scoreContent>h2 {
+    color: #80278c;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+#wins, #losses{
+    list-style: none;
+    color: dimgray;
+}

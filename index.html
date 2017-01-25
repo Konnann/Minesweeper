@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="BlockClass.js"></script>
+    <script src="FieldClass.js"></script>
+    <script src="App.js"></script>
+    <link rel="stylesheet" type="text/css" href="App.css">
+    <title>Minesweeper</title>
+</head>
+<body oncontextmenu="return false;" onload="App.initializeGame()">
+    <section id="field" openedBlocks="0" minesHit="0"></section>
+    <section id="result"></section>
+    <section id="score">
+        <div id="scoreContent">
+            <h2>Score</h2>
+            <ul>
+                <li id="wins">Wins: 0</li>
+                <li id="losses">Losses: 0</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
